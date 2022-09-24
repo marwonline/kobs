@@ -512,8 +512,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/configuration/authentication/" class="md-nav__link">
-        Authentication
+      <a href="../../getting-started/configuration/auth/" class="md-nav__link">
+        Authentication and Authorization
       </a>
     </li>
   
@@ -867,6 +867,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../../plugins/jira/" class="md-nav__link">
+        Jira
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../plugins/kiali/" class="md-nav__link">
         Kiali
       </a>
@@ -925,6 +939,20 @@
     <li class="md-nav__item">
       <a href="../../plugins/rss/" class="md-nav__link">
         RSS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../plugins/signalsciences/" class="md-nav__link">
+        Signal Sciences
       </a>
     </li>
   
@@ -1379,17 +1407,17 @@
 <p>When you have adjusted the <code>main.go</code> file run <code>go mod tidy</code> to add it to your <code>go.mod</code> file.</p>
 <h3 id="dockerfile"><code>Dockerfile</code></h3>
 <p>The <code>Dockerfile</code> is used to build your own version of kobs and to copy the frontend files for your plugin. We are using again the <code>helloworld</code> plugin from the <a href="https://github.com/kobsio/plugin-template">kobsio/plugin-template</a> in the following example:</p>
-<div class="highlight"><pre><span></span><code><span class="w">FROM kobsio/kobs:v0.9.1 as app</span>
+<div class="highlight"><pre><span></span><code><span class="w">FROM kobsio/kobs:v0.10.0 as app</span>
 <span class="gi">+FROM kobsio/plugin:main as plugin-helloworld</span><span class="w"></span>
 
-<span class="w">FROM golang:1.18.3 as api</span>
+<span class="w">FROM golang:1.19.0 as api</span>
 <span class="w">WORKDIR /kobs</span>
 <span class="w">COPY go.mod go.sum /kobs/</span>
 <span class="w">RUN go mod download</span>
 <span class="w">COPY . .</span>
 <span class="w">RUN export CGO_ENABLED=0 &amp;&amp; make build</span>
 
-<span class="w">FROM alpine:3.16.0</span>
+<span class="w">FROM alpine:3.16.2</span>
 <span class="w">RUN apk update &amp;&amp; apk add --no-cache ca-certificates</span>
 <span class="w">RUN mkdir /kobs</span>
 <span class="w">COPY --from=api /kobs/bin/kobs /kobs</span>
