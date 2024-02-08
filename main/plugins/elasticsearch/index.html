@@ -10,8 +10,15 @@
       
       
       
+      
+        <link rel="prev" href="../datadog/">
+      
+      
+        <link rel="next" href="../flux/">
+      
+      
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.4">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.7">
     
     
       
@@ -19,14 +26,17 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.4a0965b7.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.f2e4d321.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
-        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
+
+
     
+    
+      
     
     
       
@@ -40,10 +50,11 @@
     
       <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
+    
     
     
   </head>
@@ -51,16 +62,11 @@
   
     
     
-      
     
     
     
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
   
-    
-    
-      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -77,10 +83,8 @@
       
     </div>
     
-      <div data-md-component="outdated" hidden>
-        <aside class="md-banner md-banner--warning">
-          
-        </aside>
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
       </div>
     
     
@@ -94,6 +98,7 @@
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
+      
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
@@ -113,31 +118,13 @@
       </div>
     </div>
     
-      <form class="md-header__option" data-md-component="palette">
-        
-          
-          
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
-          
-            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
-            </label>
-          
-        
-          
-          
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
-          
-            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
-            </label>
-          
-        
-      </form>
+      
+    
     
     
     
       <label class="md-header__button md-icon" for="__search">
+        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
       </label>
       <div class="md-search" data-md-component="search" role="dialog">
@@ -146,12 +133,15 @@
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
+        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
       </nav>
@@ -163,7 +153,7 @@
           <div class="md-search-result__meta">
             Initializing search
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
@@ -175,7 +165,7 @@
         <a href="https://github.com/kobsio/kobs" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     kobsio/kobs
@@ -194,32 +184,21 @@
           
             
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
+  <div class="md-grid">
     <ul class="md-tabs__list">
       
         
   
   
-
-
-  <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
-      Home
-    </a>
-  </li>
-
-      
-        
-  
-  
-
-
-  
-  
   
     <li class="md-tabs__item">
-      <a href="../../getting-started/" class="md-tabs__link">
-        Getting Started
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
       </a>
     </li>
   
@@ -228,16 +207,36 @@
         
   
   
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../getting-started/" class="md-tabs__link">
+          
+  
+  Getting Started
 
+        </a>
+      </li>
+    
+  
 
+      
+        
   
   
   
-    <li class="md-tabs__item">
-      <a href="../../resources/" class="md-tabs__link">
-        Resources
-      </a>
-    </li>
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../resources/" class="md-tabs__link">
+          
+  
+  Resources
+
+        </a>
+      </li>
+    
   
 
       
@@ -246,48 +245,54 @@
   
     
   
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  Plugins
 
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../" class="md-tabs__link md-tabs__link--active">
-        Plugins
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../community-plugins/" class="md-tabs__link">
-        Community Plugins
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
         
   
   
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../community-plugins/" class="md-tabs__link">
+          
+  
+  Community Plugins
 
+        </a>
+      </li>
+    
+  
 
+      
+        
   
   
   
-    <li class="md-tabs__item">
-      <a href="../../contributing/" class="md-tabs__link">
-        Contributing
-      </a>
-    </li>
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../contributing/" class="md-tabs__link">
+          
+  
+  Contributing
+
+        </a>
+      </li>
+    
   
 
       
@@ -307,6 +312,7 @@
                   <div class="md-sidebar__inner">
                     
 
+
   
 
 
@@ -324,7 +330,7 @@
       <a href="https://github.com/kobsio/kobs" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     kobsio/kobs
@@ -336,14 +342,19 @@
     
       
       
-      
-
+  
   
   
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        Home
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
       </a>
     </li>
   
@@ -351,428 +362,580 @@
     
       
       
-      
-
+  
   
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    
+    
+    
+    
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2">
-          Getting Started
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Getting Started" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
-          <span class="md-nav__icon md-icon"></span>
-          Getting Started
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
           
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Getting Started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../getting-started/" class="md-nav__link">
-        Getting Started
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2_2">
-          Installation
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Installation" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_2">
-          <span class="md-nav__icon md-icon"></span>
-          Installation
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
           
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Installation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../getting-started/installation/helm/" class="md-nav__link">
-        Helm
+        
+  
+  <span class="md-ellipsis">
+    Helm
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../getting-started/installation/kustomize/" class="md-nav__link">
-        Kustomize
+        
+  
+  <span class="md-ellipsis">
+    Kustomize
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     
+    
+    
+    
+    
     <li class="md-nav__item md-nav__item--nested">
       
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2_3">
-          Configuration
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Configuration" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_3">
-          <span class="md-nav__icon md-icon"></span>
-          Configuration
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
           
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Configuration
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Configuration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/configuration/cluster/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    cluster
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../getting-started/configuration/hub/" class="md-nav__link">
-        hub
+        
+  
+  <span class="md-ellipsis">
+    hub
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/configuration/satellite/" class="md-nav__link">
-        satellite
+      <a href="../../getting-started/configuration/watcher/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    watcher
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
-            
               
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../getting-started/configuration/auth/" class="md-nav__link">
-        Authentication and Authorization
-      </a>
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
-            
-          
-            
               
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../getting-started/configuration/navigation/" class="md-nav__link">
-        Navigation
-      </a>
-    </li>
-  
-
             
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../getting-started/configuration/notifications/" class="md-nav__link">
-        Notifications
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../getting-started/demo/demo/" class="md-nav__link">
-        Demo
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    
+    
+    
+    
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3">
-          Resources
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Resources" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
-          <span class="md-nav__icon md-icon"></span>
-          Resources
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
           
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Resources
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../resources/" class="md-nav__link">
-        Getting Started
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../resources/kubernetes-resources/" class="md-nav__link">
-        Kubernetes Resources
+        
+  
+  <span class="md-ellipsis">
+    Kubernetes Resources
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../resources/applications/" class="md-nav__link">
-        Applications
+        
+  
+  <span class="md-ellipsis">
+    Applications
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../resources/users/" class="md-nav__link">
-        Users
+        
+  
+  <span class="md-ellipsis">
+    Users
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../resources/teams/" class="md-nav__link">
-        Teams
+        
+  
+  <span class="md-ellipsis">
+    Teams
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../resources/dashboards/" class="md-nav__link">
-        Dashboards
+        
+  
+  <span class="md-ellipsis">
+    Dashboards
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
   
   
     
   
   
+  
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    
+    
+    
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4">
-          Plugins
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Plugins" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
-          <span class="md-nav__icon md-icon"></span>
-          Plugins
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
           
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Plugins
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Plugins
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../" class="md-nav__link">
-        Getting Started
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../azure/" class="md-nav__link">
-        Azure
+        
+  
+  <span class="md-ellipsis">
+    Azure
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datadog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Datadog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
   
   
     
   
   
+  
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Elasticsearch
+          
+  
+  <span class="md-ellipsis">
+    Elasticsearch
+  </span>
+  
+
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Elasticsearch
+        
+  
+  <span class="md-ellipsis">
+    Elasticsearch
+  </span>
+  
+
       </a>
       
         
@@ -792,28 +955,36 @@
       
         <li class="md-nav__item">
   <a href="#configuration" class="md-nav__link">
-    Configuration
+    <span class="md-ellipsis">
+      Configuration
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#insight-options" class="md-nav__link">
-    Insight Options
+    <span class="md-ellipsis">
+      Insight Options
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#variable-options" class="md-nav__link">
-    Variable Options
+    <span class="md-ellipsis">
+      Variable Options
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#panel-options" class="md-nav__link">
-    Panel Options
+    <span class="md-ellipsis">
+      Panel Options
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="Panel Options">
@@ -821,7 +992,9 @@
         
           <li class="md-nav__item">
   <a href="#query" class="md-nav__link">
-    Query
+    <span class="md-ellipsis">
+      Query
+    </span>
   </a>
   
 </li>
@@ -832,15 +1005,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#notification-options" class="md-nav__link">
-    Notification Options
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#usage" class="md-nav__link">
-    Usage
+    <span class="md-ellipsis">
+      Usage
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="Usage">
@@ -848,7 +1016,9 @@
         
           <li class="md-nav__item">
   <a href="#query-string-syntax" class="md-nav__link">
-    Query String Syntax
+    <span class="md-ellipsis">
+      Query String Syntax
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="Query String Syntax">
@@ -856,62 +1026,69 @@
         
           <li class="md-nav__item">
   <a href="#field-names" class="md-nav__link">
-    Field Names
+    <span class="md-ellipsis">
+      Field Names
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#wildcards" class="md-nav__link">
-    Wildcards
+    <span class="md-ellipsis">
+      Wildcards
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#regular-expressions" class="md-nav__link">
-    Regular Expressions
+    <span class="md-ellipsis">
+      Regular Expressions
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#fuzziness" class="md-nav__link">
-    Fuzziness
+    <span class="md-ellipsis">
+      Fuzziness
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#ranges" class="md-nav__link">
-    Ranges
+    <span class="md-ellipsis">
+      Ranges
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#boolean-operators" class="md-nav__link">
-    Boolean operators
+    <span class="md-ellipsis">
+      Boolean operators
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#grouping" class="md-nav__link">
-    Grouping
+    <span class="md-ellipsis">
+      Grouping
+    </span>
   </a>
   
 </li>
         
       </ul>
     </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#example-dashboard" class="md-nav__link">
-    Example Dashboard
-  </a>
   
 </li>
         
@@ -927,447 +1104,609 @@
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../flux/" class="md-nav__link">
-        Flux
+        
+  
+  <span class="md-ellipsis">
+    Flux
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../github/" class="md-nav__link">
-        GitHub
+        
+  
+  <span class="md-ellipsis">
+    GitHub
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../grafana/" class="md-nav__link">
-        Grafana
+        
+  
+  <span class="md-ellipsis">
+    Grafana
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../harbor/" class="md-nav__link">
-        Harbor
+        
+  
+  <span class="md-ellipsis">
+    Harbor
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../helm/" class="md-nav__link">
-        Helm
+        
+  
+  <span class="md-ellipsis">
+    Helm
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../istio/" class="md-nav__link">
-        Istio
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
   
   
   
     <li class="md-nav__item">
       <a href="../jaeger/" class="md-nav__link">
-        Jaeger
+        
+  
+  <span class="md-ellipsis">
+    Jaeger
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../jira/" class="md-nav__link">
-        Jira
+        
+  
+  <span class="md-ellipsis">
+    Jira
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../kiali/" class="md-nav__link">
-        Kiali
+        
+  
+  <span class="md-ellipsis">
+    Kiali
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../klogs/" class="md-nav__link">
-        klogs
+        
+  
+  <span class="md-ellipsis">
+    klogs
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mongodb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MongoDB
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../opsgenie/" class="md-nav__link">
-        Opsgenie
+        
+  
+  <span class="md-ellipsis">
+    Opsgenie
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../prometheus/" class="md-nav__link">
-        Prometheus
+        
+  
+  <span class="md-ellipsis">
+    Prometheus
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../rss/" class="md-nav__link">
-        RSS
+        
+  
+  <span class="md-ellipsis">
+    RSS
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../runbooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Runbooks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../signalsciences/" class="md-nav__link">
-        Signal Sciences
+        
+  
+  <span class="md-ellipsis">
+    Signal Sciences
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../sonarqube/" class="md-nav__link">
-        SonarQube
+        
+  
+  <span class="md-ellipsis">
+    SonarQube
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../sql/" class="md-nav__link">
-        SQL
+        
+  
+  <span class="md-ellipsis">
+    SQL
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../techdocs/" class="md-nav__link">
-        TechDocs
+        
+  
+  <span class="md-ellipsis">
+    TechDocs
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../velero/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Velero
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    
+    
+    
+    
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5">
-          Community Plugins
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Community Plugins" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
-          <span class="md-nav__icon md-icon"></span>
-          Community Plugins
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
           
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Community Plugins
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Community Plugins
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../community-plugins/" class="md-nav__link">
-        Getting Started
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
       </a>
     </li>
   
 
+              
             
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
     
       
       
-      
-
+  
   
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    
+    
+    
+    
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_6">
-          Contributing
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Contributing" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
-          <span class="md-nav__icon md-icon"></span>
-          Contributing
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
           
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Contributing
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Contributing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../contributing/" class="md-nav__link">
-        Getting Started
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../contributing/create-a-plugin/" class="md-nav__link">
-        Create a Plugin
+        
+  
+  <span class="md-ellipsis">
+    Create a Plugin
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
+  
   
   
   
     <li class="md-nav__item">
       <a href="../../contributing/use-custom-plugins/" class="md-nav__link">
-        Use Custom Plugins
+        
+  
+  <span class="md-ellipsis">
+    Use Custom Plugins
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
+              
             
               
+                
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../../contributing/development-using-the-demo/" class="md-nav__link">
-        Development using the Demo
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
   
   
   
     <li class="md-nav__item">
       <a href="../../contributing/release/" class="md-nav__link">
-        Release
+        
+  
+  <span class="md-ellipsis">
+    Release
+  </span>
+  
+
       </a>
     </li>
   
 
-            
-          
-            
               
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_6" type="checkbox" id="__nav_6_6" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_6_6">
-          Architecture Decision Records (ADR)
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Architecture Decision Records (ADR)" data-md-level="2">
-        <label class="md-nav__title" for="__nav_6_6">
-          <span class="md-nav__icon md-icon"></span>
-          Architecture Decision Records (ADR)
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
             
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../contributing/adr/001_facilitate_centralized_instance/" class="md-nav__link">
-        ADR001 - Facilitate Centralized Instance
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1400,28 +1739,36 @@
       
         <li class="md-nav__item">
   <a href="#configuration" class="md-nav__link">
-    Configuration
+    <span class="md-ellipsis">
+      Configuration
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#insight-options" class="md-nav__link">
-    Insight Options
+    <span class="md-ellipsis">
+      Insight Options
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#variable-options" class="md-nav__link">
-    Variable Options
+    <span class="md-ellipsis">
+      Variable Options
+    </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#panel-options" class="md-nav__link">
-    Panel Options
+    <span class="md-ellipsis">
+      Panel Options
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="Panel Options">
@@ -1429,7 +1776,9 @@
         
           <li class="md-nav__item">
   <a href="#query" class="md-nav__link">
-    Query
+    <span class="md-ellipsis">
+      Query
+    </span>
   </a>
   
 </li>
@@ -1440,15 +1789,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#notification-options" class="md-nav__link">
-    Notification Options
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#usage" class="md-nav__link">
-    Usage
+    <span class="md-ellipsis">
+      Usage
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="Usage">
@@ -1456,7 +1800,9 @@
         
           <li class="md-nav__item">
   <a href="#query-string-syntax" class="md-nav__link">
-    Query String Syntax
+    <span class="md-ellipsis">
+      Query String Syntax
+    </span>
   </a>
   
     <nav class="md-nav" aria-label="Query String Syntax">
@@ -1464,62 +1810,69 @@
         
           <li class="md-nav__item">
   <a href="#field-names" class="md-nav__link">
-    Field Names
+    <span class="md-ellipsis">
+      Field Names
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#wildcards" class="md-nav__link">
-    Wildcards
+    <span class="md-ellipsis">
+      Wildcards
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#regular-expressions" class="md-nav__link">
-    Regular Expressions
+    <span class="md-ellipsis">
+      Regular Expressions
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#fuzziness" class="md-nav__link">
-    Fuzziness
+    <span class="md-ellipsis">
+      Fuzziness
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#ranges" class="md-nav__link">
-    Ranges
+    <span class="md-ellipsis">
+      Ranges
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#boolean-operators" class="md-nav__link">
-    Boolean operators
+    <span class="md-ellipsis">
+      Boolean operators
+    </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#grouping" class="md-nav__link">
-    Grouping
+    <span class="md-ellipsis">
+      Grouping
+    </span>
   </a>
   
 </li>
         
       </ul>
     </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#example-dashboard" class="md-nav__link">
-    Example Dashboard
-  </a>
   
 </li>
         
@@ -1536,23 +1889,22 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
-  <a href="https://github.com/kobsio/kobs/edit/main/docs/plugins/elasticsearch.md" title="Edit this page" class="md-content__button md-icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
-  </a>
+                  
 
+  
+  
 
 
 <h1 id="elasticsearch">Elasticsearch</h1>
 <p>The Elasticsearch plugin can be used to retrieve logs from a configured Elasticsearch instance. You can specify a query, which is used to retireve all documents from Elasticsearch. You can also select a list of fields, to display the results in a table. From this table you can also select a single document to view the complete json representation of this document.</p>
-<p><img alt="Query" src="../assets/elasticsearch-query.png" /></p>
-<p><img alt="Fields" src="../assets/elasticsearch-fields.png" /></p>
-<p><img alt="Document" src="../assets/elasticsearch-document.png" /></p>
+<p><img alt="Preview" src="../assets/elasticsearch-preview.png" /></p>
+<p><img alt="Table" src="../assets/elasticsearch-table.png" /></p>
 <h2 id="configuration">Configuration</h2>
-<p>To use the Elasticsearch plugin the following configuration is needed in the satellites configuration file:</p>
+<p>The Elasticsearch plugin can be used within the <code>hub</code> or <code>cluster</code>. To use the Elasticsearch plugin the following configuration is needed:</p>
 <table>
 <thead>
 <tr>
@@ -1599,16 +1951,39 @@
 <td>Token to access an Elasticsearch instance via token based authentication.</td>
 <td>No</td>
 </tr>
+<tr>
+<td>frontendOptions.dataViews.[].name</td>
+<td>string</td>
+<td>The name of the data view. A data view is required to access the Elasticsearch data that you want to explore. A data view can point to one or more indices.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>frontendOptions.dataViews.[].indexPattern</td>
+<td>string</td>
+<td>The pattern to match your indicies (e.g. <code>fielbeat-*</code>).</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>frontendOptions.dataViews.[].timestampField</td>
+<td>string</td>
+<td>An optional timestamp field. If you are working with logs this field should be provided. If you are working with other data like search data this field must not be provided.</td>
+<td>No</td>
+</tr>
 </tbody>
 </table>
-<div class="highlight"><pre><span></span><code><span class="nt">plugins</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">elasticsearch</span><span class="w"></span>
-<span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">elasticsearch</span><span class="w"></span>
-<span class="w">    </span><span class="nt">options</span><span class="p">:</span><span class="w"></span>
-<span class="w">      </span><span class="nt">address</span><span class="p">:</span><span class="w"></span>
-<span class="w">      </span><span class="nt">username</span><span class="p">:</span><span class="w"></span>
-<span class="w">      </span><span class="nt">password</span><span class="p">:</span><span class="w"></span>
-<span class="w">      </span><span class="nt">token</span><span class="p">:</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="nt">plugins</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">elasticsearch</span>
+<span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">elasticsearch</span>
+<span class="w">    </span><span class="nt">options</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">address</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">username</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">password</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">token</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">frontendOptions</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">dataViews</span><span class="p">:</span>
+<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">filebeat-*</span>
+<span class="w">          </span><span class="nt">indexPattern</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">filebeat-*</span>
+<span class="w">          </span><span class="nt">timestampField</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;@timestamp&quot;</span>
 </code></pre></div>
 <h2 id="insight-options">Insight Options</h2>
 <div class="admonition note">
@@ -1633,15 +2008,21 @@
 </thead>
 <tbody>
 <tr>
+<td>type</td>
+<td>string</td>
+<td>The panel type. This must be <code>logs</code>.</td>
+<td>Yes</td>
+</tr>
+<tr>
 <td>showChart</td>
 <td>boolean</td>
-<td>If this is <code>true</code> the chart with the distribution of the Documents over the selected time range will be shown</td>
+<td>If this is <code>true</code> the chart with the distribution of the log lines in the selected time range will be shown.</td>
 <td>No</td>
 </tr>
 <tr>
 <td>queries</td>
 <td><a href="#query">[]Query</a></td>
-<td>A list of Elasticsearch queries, which can be selected by the user.</td>
+<td>A list of queries, which can be selected by the user. This is only required for type <code>logs</code>.</td>
 <td>Yes</td>
 </tr>
 </tbody>
@@ -1664,6 +2045,12 @@
 <td>Yes</td>
 </tr>
 <tr>
+<td>dataView</td>
+<td>string</td>
+<td>The name of the data view which should be used for the query.</td>
+<td>Yes</td>
+</tr>
+<tr>
 <td>query</td>
 <td>string</td>
 <td>The Elasticsearch query. We are using the <a href="#query-string-syntax">Query String Syntax</a> for Elasticsearch.</td>
@@ -1677,11 +2064,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="notification-options">Notification Options</h2>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The Elasticsearch plugin can not be used to get a list of notifications.</p>
-</div>
 <h2 id="usage">Usage</h2>
 <h3 id="query-string-syntax">Query String Syntax</h3>
 <p>The Elasticsearch plugins uses the <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax">query string syntax</a> for filtering log lines.</p>
@@ -1766,94 +2148,36 @@ to provide more control.</p>
 <p>Multiple terms or clauses can be grouped together with parentheses, to form sub-queries:</p>
 <div class="highlight"><pre><span></span><code>(quick OR brown) AND fox
 </code></pre></div>
-<h3 id="example-dashboard">Example Dashboard</h3>
-<div class="highlight"><pre><span></span><code><span class="nn">---</span><span class="w"></span>
-<span class="nt">apiVersion</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">kobs.io/v1</span><span class="w"></span>
-<span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Dashboard</span><span class="w"></span>
-<span class="nt">spec</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">placeholders</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">namespace</span><span class="w"></span>
-<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">The workload namespace</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">app</span><span class="w"></span>
-<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">The workloads app label</span><span class="w"></span>
-<span class="w">  </span><span class="nt">rows</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">size</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">-1</span><span class="w"></span>
-<span class="w">      </span><span class="nt">panels</span><span class="p">:</span><span class="w"></span>
-<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Istio Logs</span><span class="w"></span>
-<span class="w">          </span><span class="nt">colSpan</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">12</span><span class="w"></span>
-<span class="w">          </span><span class="nt">plugin</span><span class="p">:</span><span class="w"></span>
-<span class="w">            </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">elasticsearch</span><span class="w"></span>
-<span class="w">            </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">elasticsearch</span><span class="w"></span>
-<span class="w">            </span><span class="nt">options</span><span class="p">:</span><span class="w"></span>
-<span class="w">              </span><span class="nt">showChart</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w"></span>
-<span class="w">              </span><span class="nt">queries</span><span class="p">:</span><span class="w"></span>
-<span class="w">                </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Istio Logs</span><span class="w"></span>
-<span class="w">                  </span><span class="nt">query</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;kubernetes.namespace:</span><span class="nv"> </span><span class="s">{%</span><span class="nv"> </span><span class="s">.namespace</span><span class="nv"> </span><span class="s">%}</span><span class="nv"> </span><span class="s">AND</span><span class="nv"> </span><span class="s">kubernetes.labels.app:</span><span class="nv"> </span><span class="s">{%</span><span class="nv"> </span><span class="s">.app</span><span class="nv"> </span><span class="s">%}</span><span class="nv"> </span><span class="s">AND</span><span class="nv"> </span><span class="s">kubernetes.container.name:</span><span class="nv"> </span><span class="s">istio-proxy</span><span class="nv"> </span><span class="s">AND</span><span class="nv"> </span><span class="s">_exists_:</span><span class="nv"> </span><span class="s">content.method&quot;</span><span class="w"></span>
-<span class="w">                  </span><span class="nt">fields</span><span class="p">:</span><span class="w"></span>
-<span class="w">                    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;kubernetes.pod.name&quot;</span><span class="w"></span>
-<span class="w">                    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;content.authority&quot;</span><span class="w"></span>
-<span class="w">                    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;content.route_name&quot;</span><span class="w"></span>
-<span class="w">                    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;content.protocol&quot;</span><span class="w"></span>
-<span class="w">                    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;content.method&quot;</span><span class="w"></span>
-<span class="w">                    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;content.path&quot;</span><span class="w"></span>
-<span class="w">                    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;content.response_code&quot;</span><span class="w"></span>
-<span class="w">                    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;content.upstream_service_time&quot;</span><span class="w"></span>
-<span class="w">                    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;content.bytes_received&quot;</span><span class="w"></span>
-<span class="w">                    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;content.bytes_sent&quot;</span><span class="w"></span>
-</code></pre></div>
 
-              
-            </article>
-            
-          </div>
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
       </main>
       
         <footer class="md-footer">
   
-    
-    <nav class="md-footer__inner md-grid" aria-label="Footer" >
-      
-        
-        <a href="../azure/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Azure" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Azure
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../flux/" class="md-footer__link md-footer__link--next" aria-label="Next: Flux" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Flux
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
-  
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright © 2021 Rico Berger
+      Copyright © 2023 Rico Berger
     </div>
   
   
@@ -1868,6 +2192,8 @@ to provide more control.</p>
   
     
     
+    
+    
       
       
     
@@ -1877,20 +2203,24 @@ to provide more control.</p>
   
     
     
+    
+    
       
       
     
     <a href="https://github.com/kobsio/kobs" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
     </a>
   
     
     
+    
+    
       
       
     
-    <a href="https://hub.docker.com/r/kobsio/kobs" target="_blank" rel="noopener" title="hub.docker.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg>
+    <a href="https://github.com/orgs/kobsio/packages" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg>
     </a>
   
 </div>
@@ -1903,10 +2233,12 @@ to provide more control.</p>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs"], "search": "../../assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.f758a944.min.js"></script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.caa56a14.min.js"></script>
       
     
   </body>
